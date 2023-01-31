@@ -220,16 +220,6 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-12 form-group">
-										<div class="row">
-											<div class="col-sm-2 col-form-label">
-												<label for="form-email">Email:</label>
-											</div>
-											<div class="col-sm-10">
-												<input type="email" name="form-email" id="form-email" class="form-control required" value="" placeholder="Your Email Address">
-											</div>
-										</div>
-									</div>
 									
 									<div class="col-12 form-group">
 										<div class="row">
@@ -241,6 +231,34 @@
 											</div>
 										</div>
 									</div>
+
+									<div class="col-12 form-group">
+										<div class="row">
+											<div class="col-sm-2 col-form-label">
+												<label for="form-cat">Catergory:</label>
+											</div>
+											<div class="col-sm-10">
+												<select class="form-control" id="form-cat">
+													<option value=0>- Select One -</option>
+													<option value=1>Individual</option>
+													<option value=2>Groups</option>
+													<option value=3>Lions Club</option>
+													<option value=4>Organization</option>
+												</select>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 form-group">
+										<div class="row">
+											<div class="col-sm-2 col-form-label">
+												<label for="form-cat">Project Code:</label>
+											</div>
+											<div class="col-sm-10">
+												<input type="text" name="form-project" id="form-project" class="form-control required" value="" placeholder="Project Code" disabled>
+											</div>
+										</div>
+									</div>
+									
 									<div class="col-12 form-group">
 										<div class="row">
 											<div class="col-sm-2 col-form-label">
@@ -272,8 +290,33 @@
 										</div>
 									</div>
 									
-									<div class="col-12 form-group">
-										<div class="row bg-leaf p-3">
+									<div class="col-12 form-group bg-leaf p-3 row">
+									<div class="col-6 form-group">
+										<div class="row">
+											<div class="col-sm-4 col-form-label">
+												<label for="form-login">Login ID:</label>
+											</div>
+											<div class="col-sm-7">
+												<input type="text" name="form-login" id="form-login" class="form-control required" value="" placeholder="Login ID">
+											</div>
+										</div>
+									</div>
+									<div class="col-6 form-group">
+										<div class="row">
+											<div class="col-sm-4 col-form-label">
+												<label for="form-pass">Password:</label>
+											</div>
+											<div class="col-sm-7">
+												<input type="password" name="form-pass" id="form-pass" class="form-control required" value="" placeholder="Password">
+												<small>Minimum length 8 characters</small>
+											</div>
+										</div>
+									</div>
+									</div>
+									
+									
+									<div class="col-12 form-group bg-leaf row">
+										<div class="row p-3">
 											
 											<div class="col-12 form-group">
 												<div class="row">
@@ -309,7 +352,7 @@
 													<div class="col-sm-4 col-form-label">
 														<label for="form-country">Country:</label>
 													</div>
-													<div class="col-sm-7">
+													<div class="col-sm-8">
 														<input type="number" min="10" max="50" name="form-country" id="form-country" class="form-control required" value="" placeholder="Enter your Country">
 													</div>
 												</div>
@@ -319,7 +362,7 @@
 													<div class="col-sm-4 col-form-label">
 														<label for="form-city">City:</label>
 													</div>
-													<div class="col-sm-7">
+													<div class="col-sm-8">
 														<input type="number" min="10" max="50" name="form-city" id="form-city" class="form-control required" value="" placeholder="Enter your City">
 													</div>
 												</div>
@@ -329,7 +372,7 @@
 													<div class="col-sm-4 col-form-label">
 														<label for="form-postcode">Postcode:</label>
 													</div>
-													<div class="col-sm-7">
+													<div class="col-sm-8">
 														<input type="number" min="10" max="50" name="form-postcode" id="form-postcode" class="form-control required" value="" placeholder="Enter your Postcode">
 													</div>
 												</div>
@@ -474,6 +517,15 @@
 			removeLabel: "",
 			removeIcon: "<i class='icon-trash-alt1'></i>",
 			showUpload: false
+		});
+		
+		$("#form-cat").on('change', function() {
+		  	var val = this.value;
+			if(val!=0){
+				$("#form-project").prop("disabled", false);
+			}else{
+				$("#form-project").prop("disabled", true);
+			}
 		});
 		
 	});

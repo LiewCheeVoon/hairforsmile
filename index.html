@@ -181,16 +181,16 @@
 								<div class="heading-block border-bottom-0 bottommargin-sm">
 									<h1 style="line-height: 1.4;font-size: 24px;">Register to be a Hero</h1>
 								</div>
-								<form id="slider-subscribe-form" action="#" method="post" class="row mb-0">
-									<div class="col-6 mb-3">
-										<input type="text" class="sm-form-control border-form-control not-dark required" name="widget-subscribe-form-fname" placeholder="First Name">
+								<form id="register-form" action="reg_individual.html" method="post" class="row mb-0">
+									<div class="col-12 mb-3">
+										<input type="text" class="sm-form-control border-form-control not-dark required" name="widget-subscribe-form-name" placeholder="Name">
 									</div>
-									<div class="col-6 mb-3">
-										<input type="text" class="sm-form-control border-form-control not-dark required" name="widget-subscribe-form-lname" placeholder="Last Name">
+									<div class="col-12 mb-3">
+										<input type="email" class="sm-form-control border-form-control not-dark required" name="widget-subscribe-form-email" placeholder="Enter Email Address">
 									</div>
 									<div class="w-100"></div>
 									<div class="col-12 mb-3">
-										<input type="email" class="sm-form-control border-form-control not-dark required" name="widget-subscribe-form-email" placeholder="Enter Email Address">
+										<input type="text" class="sm-form-control border-form-control not-dark required" name="widget-subscribe-form-call" placeholder="Contact Number">
 									</div>
 									<div class="w-100"></div>
 									<div class="col-12 mb-3">
@@ -204,7 +204,7 @@
 										</select>
 									</div>
 									<div class="col-12">
-										<button type="submit" class="button button-light button-circle button-border ml-0 topmargin-sm" value="submit">Register Me</button>
+										<button type="submit" id="form-submit" class="button button-light button-circle button-border ml-0 topmargin-sm" value="submit">Register Me</button>
 									</div>
 								</form>
 							</div>
@@ -670,6 +670,11 @@
 	$(document).ready(function() {
 		$('#jSel').on('change', function() {
 			$(this).removeClass("_jSel");
+		});
+		$("#form-submit").click(function(e) {
+			e.preventDefault();//prevent the form from actually submitting
+			//console.log ("go");
+			window.location = 'reg_individual.html';
 		});
 	});
 	

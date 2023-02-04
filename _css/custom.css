@@ -6,6 +6,7 @@ a.disabled 					{ pointer-events: none; cursor: default; opacity: 0.3; } /* page
 .overlay-text				{ position: absolute; top:1em; left:1em; font-weight: bold; background-color: darkslategray; letter-spacing: 3px; padding: 3px; text-indent: 3px; color: white; } /* xx_details Top right text overlay */
 .jtxH1						{ font-size: 1.5rem} /* xx_detials target & raise */
 .bg-leaf					{ background-color: #EEE; }
+.jhand						{ cursor: pointer; }
 
 
 

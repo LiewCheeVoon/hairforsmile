@@ -1,0 +1,34 @@
+
+always Add new log above
+
+
+==============================================
+8:59 PM 2/4/2023 by Jowy (igrone .php version)
+==============================================
+heroing_individual.html 
+-------------------------------------
+> replace <br/ > to <br/> 
+> move onclick from main div to image div
+> add pointer(css) when mouse over image
+
+custome.css
+> added jhand class to show point when mouse over image
+
+heroing_org.html
+----------------
+> removed pagination label
+> border from red to black
+> replace <br/ > to <br/> 
+> added [donate] button
+
+heroing_org_details.html
+------------------------
+> new add
+
+[doc]
+-----
+> created new folder to store .xlsx file
+
+changinglog.txt
+---------------
+> new created to log down all the changes

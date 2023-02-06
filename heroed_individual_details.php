@@ -21,7 +21,8 @@
 		<section id="content">
 			<div class="content-wrap">
 				<div class="container clearfix">
-
+					
+						
 					<div class="row mb-3">
 						<div class="col-lg-6 col-md-6 col-sm-12">
 							<div class="row">
@@ -39,7 +40,7 @@
 						<br clear="all clearfix"/>
 						<div class="col-lg-6 col-md-6 col-sm-12">
 							<div class="entry-title title-sm">
-								<h2><a href="blog-single.html">Organisation Single Donor's Info</a></h2>
+								<h2><a href="blog-single.html">INDIVIDUAL Donor's Info</a></h2>
 							</div>
 							<div class="entry-content">
 								<table class="table table-borderless table-sm table-responsive">
@@ -48,6 +49,16 @@
 											<td class="col-2">Name</td>
 											<td class="col-1">:</td>
 											<td class="col-9">Simonny Tan</td>
+										</tr>
+										<tr>
+											<td class="col-2">Country</td>
+											<td class="col-1">:</td>
+											<td class="col-9">Malaysia</td>
+										</tr>
+										<tr>
+											<td class="col-2">City</td>
+											<td class="col-1">:</td>
+											<td class="col-9">Kuala Lumpur</td>
 										</tr>
 										<tr>
 											<td class="col-2">Message</td>
@@ -66,13 +77,13 @@
 									<div class="col-6 card border-width-0">
 										<div class="card-header">Target Amount</div>
 										<div class="card-body jtxH1">
-											$99,000
+											$100,000
 										</div>
 									</div>
 									<div class="col-6 card border-width-0">
 										<div class="card-header">Amount Raised</div>
 										<div class="card-body jtxH1">
-											$9,999
+											$101,000
 										</div>
 									</div>
 								</div>
@@ -84,6 +95,10 @@
 							</div>
 						</div>
 					</div>
+					
+				</div>
+			</div>
+		</section>
 										
 
 

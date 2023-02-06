@@ -53,20 +53,25 @@
 						<br clear="all clearfix"/>
 						<div class="col-lg-6 col-md-6 col-sm-12">
 							<div class="entry-title title-sm">
-								<h2><a href="blog-single.html">LIONS CLUB Donor's Info</a></h2>
+								<h2><a href="blog-single.html">Lions Donor's Info</a></h2>
 							</div>
 							<div class="entry-content">
 								<table class="table table-borderless table-sm table-responsive">
 							  		<tbody>
 										<tr>
-											<td class="col-2">Club Name</td>
+											<td class="col-2">Lions Name</td>
 											<td class="col-1">:</td>
 											<td class="col-9">Crazy Ally Rally</td>
 										</tr>
 										<tr>
-											<td class="col-2">Webiste</td>
+											<td class="col-2">Country</td>
 											<td class="col-1">:</td>
-											<td class="col-9">https://clionclucb.com</td>
+											<td class="col-9">Malaysia</td>
+										</tr>
+										<tr>
+											<td class="col-2">City</td>
+											<td class="col-1">:</td>
+											<td class="col-9">Genting</td>
 										</tr>
 										<tr>
 											<td class="col-2">Message</td>
@@ -116,35 +121,35 @@
 				<div class="container clearfix">
 					<div class="row">
 						<div class="entry-title title-sm mb-3">
-							<h2>Members Of <u>LIONS CLUB</u></h2>
+							<h2>Members Of <u>Lions Club</u></h2>
 						</div>
 					</div>
 				</div>
 				
 				<div class="container clearfix">
-					<div class="jBox"><span class="text-danger h2">*** Pagination Backend is Programming part ***</span>
+					<div class="border border-dark p-3 mb-3">
 						<div id="portfolio" class="portfolio row grid-container gutter-20" data-layout="fitRows">
 							
-							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics" onClick="window.open('heroing_lions_single.php','_self')">
+							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics jhand" onClick="window.open('heroing_individual_details.php','_self')">
 								<div class="grid-inner">
 									<div class="portfolio-image"><img src="imgs/index/2.jpg" alt=""></div>
 									<div class="portfolio-desc">
 										<h3 >Simon Tan </h3>
-										<span>Kuala Lumpur, Malaysia<br/ >$145,000 </span>
+										<span>Kuala Lumpur, Malaysia<br/>$145,000 </span>
 									</div>
 								</div>
 							</article>
 
-							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics" onClick="window.open('heroing_lions_single.php','_self')">
+							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics jhand" onClick="window.open('heroing_individual_details.php','_self')">
 								<div class="grid-inner">
 									<div class="portfolio-image"><img src="imgs/index/3.jpg" alt=""></div>
 									<div class="portfolio-desc">
 										<h3 >Simon Tan </h3>
-										<span>Kuala Lumpur, Malaysia<br/ >$145,000 </span>
+										<span>Kuala Lumpur, Malaysia<br/>$145,000 </span>
 									</div>
 								</div>
 							</article>
-							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics" onClick="window.open('heroing_lions_single.php','_self')">
+							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics jhand" onClick="window.open('heroing_individual_details.php','_self')">
 								<div class="grid-inner">
 									<div class="portfolio-image"><img src="imgs/index/4.jpg" alt=""></div>
 									<div class="portfolio-desc">

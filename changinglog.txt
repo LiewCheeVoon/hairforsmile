@@ -1,6 +1,21 @@
 
 always Add new log above
 
+==============================================
+7:46 PM 2/6/2023 by Jowy (igrone .php version)
+==============================================
+heroing_group_details.html
+--------------------------
+> new added file
+
+heroing_individual_details.html
+-------------------------------
+> fix footer layout
+
+All others
+----------
+> link .php to .html
+
 
 ==============================================
 8:59 PM 2/4/2023 by Jowy (igrone .php version)

@@ -122,10 +122,10 @@
 				</div>
 				
 				<div class="container clearfix">
-					<div class="jBox"><span class="text-danger h2">*** Pagination Backend is Programming part ***</span>
+					<div class="border border-dark p-3 mb-3">
 						<div id="portfolio" class="portfolio row grid-container gutter-20" data-layout="fitRows">
 							
-							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics" onClick="window.open('heroing_org_single.php','_self')">
+							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics jhand" onClick="window.open('heroing_individual_details.php','_self')">
 								<div class="grid-inner">
 									<div class="portfolio-image"><img src="imgs/index/2.jpg" alt=""></div>
 									<div class="portfolio-desc">
@@ -135,7 +135,7 @@
 								</div>
 							</article>
 
-							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics" onClick="window.open('heroing_org_single.php','_self')">
+							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics jhand" onClick="window.open('heroing_individual_details.php','_self')">
 								<div class="grid-inner">
 									<div class="portfolio-image"><img src="imgs/index/3.jpg" alt=""></div>
 									<div class="portfolio-desc">
@@ -144,7 +144,7 @@
 									</div>
 								</div>
 							</article>
-							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics" onClick="window.open('heroing_org_single.php','_self')">
+							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics jhand" onClick="window.open('heroing_individual_details.php','_self')">
 								<div class="grid-inner">
 									<div class="portfolio-image"><img src="imgs/index/4.jpg" alt=""></div>
 									<div class="portfolio-desc">

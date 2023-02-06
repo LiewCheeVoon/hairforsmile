@@ -22,16 +22,29 @@
 			<div class="content-wrap">
 				<div class="container clearfix">
 					
+<!--
+					<div class="row mb-3" style="height:30em;">
+						<div class="col-lg-3 col-md-6 col-sm-12 w-50 h-50"
+							 style="background-image:url('imgs/individual/1_b.jpg'); background-size: cover; background-position: center; border:3px solid white;">
+							<span class="overlay-text text-uppercase">Before</span>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 w-50 h-50"
+							 style="background-image:url('imgs/individual/1_a.jpg'); background-size: cover; background-position: center; border:3px solid white; ">
+							<span class="overlay-text text-uppercase">after</span>
+						</div>
+-->
+						
+						
 						
 					<div class="row mb-3">
 						<div class="col-lg-6 col-md-6 col-sm-12">
 							<div class="row">
 								<div class="col-lg-6 col-md-12 col-sm-12 overlay-box">
-									<img src="imgs/individual/i1_b.jpg" class="img-fluid mb-3" alt="before"/>
+									<img src="imgs/organisation/o1_b.png" class="img-fluid mb-3" alt="before"/>
 									<div class="overlay-text text-uppercase">before</div>
 								</div>
 								<div class="col-lg-6 col-md-12 col-sm-12 overlay-box">
-									<img src="imgs/individual/i1_a.jpg" class="img-fluid mb-3" alt="after"/>
+									<img src="imgs/organisation/o1_a.png" class="img-fluid mb-3" alt="after"/>
 									<div class="overlay-text text-uppercase">after</div>
 								</div>
 							</div>
@@ -40,35 +53,30 @@
 						<br clear="all clearfix"/>
 						<div class="col-lg-6 col-md-6 col-sm-12">
 							<div class="entry-title title-sm">
-								<h2><a href="blog-single.html">INDIVIDUAL Donor's Info</a></h2>
+								<h2><a href="blog-single.html">ORGANISATION Donor's Info</a></h2>
 							</div>
 							<div class="entry-content">
 								<table class="table table-borderless table-sm table-responsive">
 							  		<tbody>
 										<tr>
-											<td class="col-2">Name</td>
+											<td class="col-2">Org. Name</td>
 											<td class="col-1">:</td>
-											<td class="col-9">Simonny Tan</td>
+											<td class="col-9">The American Eagle</td>
 										</tr>
 										<tr>
-											<td class="col-2">Country</td>
+											<td class="col-2">Website</td>
 											<td class="col-1">:</td>
-											<td class="col-9">Malaysia</td>
-										</tr>
-										<tr>
-											<td class="col-2">City</td>
-											<td class="col-1">:</td>
-											<td class="col-9">Kuala Lumpur</td>
+											<td class="col-9">https://eagle.American.com</td>
 										</tr>
 										<tr>
 											<td class="col-2">Message</td>
 											<td class="col-1">:</td>
-											<td class="col-9">I contribute my help to children with cancer by shaving my hair. Wish you can be part of the support too by doing donation.</td>
+											<td class="col-9">Borderless for charity.</td>
 										</tr>
 										<tr>
 											<td class="col-2">Share Link</td>
 											<td class="col-1">:</td>
-											<td class="col-9"><a href="https://www.hairforsmile.org.my/individual/hero10001">https://www.hairforsmile.org.my/individual/hero10001</a></td>
+											<td class="col-9"><a href="https://www.hairforsmile.org.my/org/org881">https://www.hairforsmile.org.my/org/org881</a></td>
 										</tr>
 							  		</tbody>
 								</table>
@@ -77,13 +85,13 @@
 									<div class="col-6 card border-width-0">
 										<div class="card-header">Target Amount</div>
 										<div class="card-body jtxH1">
-											$100,000
+											$500,000
 										</div>
 									</div>
 									<div class="col-6 card border-width-0">
 										<div class="card-header">Amount Raised</div>
 										<div class="card-body jtxH1">
-											$101,000
+											$155,000
 										</div>
 									</div>
 								</div>
@@ -95,59 +103,63 @@
 							</div>
 						</div>
 					</div>
-					
+										
 				</div>
 			</div>
 		</section>
-										
-
 
 		
 		
 		<section id="content">
 			<div class="content-wrap">
+				
 				<div class="container clearfix">
-					
 					<div class="row">
 						<div class="entry-title title-sm mb-3">
-							<h2>Donations in Support Of <u>Simonny Tan</u></h2>
+							<h2>Members Of <u>THE AMERICAN EAGLE</u></h2>
 						</div>
-						
-						<table class="table table-borderless table-sm table-striped">
-							<tbody>
-								<tr>
-									<td class="col-10">
-										<b>Liew Chee Voon (Malaysia, Petaling Jaya)</b><br/>
-										<i class="text-smaller">Very meaningful donation, can help children can see you botak too.</i>
-									</td>
-									<td class="col-2 text-right  px-3">$1,000</td>
-								</tr>
-								<tr>
-									<td class="col-10">
-										<b>Ellester Tong (Malaysia, Kuala Lumpur)</b><br/>
-										<i class="text-smaller"></i>
-									</td>
-									<td class="col-2 text-right  px-3">$3,390</td>
-								</tr>
-								<tr>
-									<td class="col-10">
-										<b>Anonymous (,)</b><br/>
-										<i class="text-smaller"></i>
-									</td>
-									<td class="col-2 text-right  px-3">$2,000</td>
-								</tr>
-								<tr>
-									<td class="col-10">
-										<b>Jinifly (Malaysia, Tawau)</b><br/>
-										<i class="text-smaller">Charity for brave.</i>
-									</td>
-									<td class="col-2 text-right  px-3">$600</td>
-								</tr>
-							</tbody>
-						</table>
 					</div>
-
 				</div>
+				
+				<div class="container clearfix">
+					<div class="border border-dark p-3 mb-3">
+						<div id="portfolio" class="portfolio row grid-container gutter-20" data-layout="fitRows">
+							
+							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics jhand" onClick="window.open('heroed_individual_details.php','_self')">
+								<div class="grid-inner">
+									<div class="portfolio-image"><img src="imgs/index/2.jpg" alt=""></div>
+									<div class="portfolio-desc">
+										<h3 >Simon Tan </h3>
+										<span>Kuala Lumpur, Malaysia<br/ >$145,000 </span>
+									</div>
+								</div>
+							</article>
+
+							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics jhand" onClick="window.open('heroed_individual_details.php','_self')">
+								<div class="grid-inner">
+									<div class="portfolio-image"><img src="imgs/index/3.jpg" alt=""></div>
+									<div class="portfolio-desc">
+										<h3 >Simon Tan </h3>
+										<span>Kuala Lumpur, Malaysia<br/ >$145,000 </span>
+									</div>
+								</div>
+							</article>
+							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics jhand" onClick="window.open('heroed_individual_details.php','_self')">
+								<div class="grid-inner">
+									<div class="portfolio-image"><img src="imgs/index/4.jpg" alt=""></div>
+									<div class="portfolio-desc">
+										<h3 >Simon Tan </h3>
+										<span>Kuala Lumpur, Malaysia<br/>$145,000 </span>
+									</div>
+								</div>
+							</article>
+							
+						</div>
+					</div><!-- jBox -->
+		
+						
+				</div>
+				
 			</div>
 		</section>
 

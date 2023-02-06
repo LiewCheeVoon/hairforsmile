@@ -34,98 +34,108 @@
 
 				
 					<div class="container clearfix">
-						<div class="border-dashed"><span class="text-danger h2">*** Pagination Backend is Programming part ***</span>
+						<div class="border border-dark p-3 mb-3">
 						<div id="portfolio" class="portfolio row grid-container gutter-20" data-layout="fitRows">
 							
-							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics" onClick="window.open('heroing_lions_details.php','_self')">
+							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics">
 								<div class="grid-inner">
-									<div class="portfolio-image"><img src="imgs/index/2.jpg" alt=""></div>
-									<div class="portfolio-desc">
-										<h3 >People name</h3>
-										<span>Genting, Malaysia<br/ >$145,000 </span>
-									</div>
-								</div>
-							</article>
-							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics" onClick="window.open('heroing_lions_details.php','_self')">
-								<div class="grid-inner">
-									<div class="portfolio-image"><img src="imgs/index/8.jpg" alt=""></div>
-									<div class="portfolio-desc">
-										<h3 >Messi</h3>
-										<span>Genting, Malaysia<br/ >$145,000 </span>
-									</div>
-								</div>
-							</article>
-							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics" onClick="window.open('heroing_lions_details.php','_self')">
-								<div class="grid-inner">
-									<div class="portfolio-image"><img src="imgs/index/2.jpg" alt=""></div>
-									<div class="portfolio-desc">
-										<h3 >Simon Tan </h3>
-										<span>Kuala Lumpur, Malaysia<br/ >$145,000 </span>
-									</div>
-								</div>
-							</article>
-							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics" onClick="window.open('heroing_lions_details.php','_self')">
-								<div class="grid-inner">
-									<div class="portfolio-image"><img src="imgs/index/4.jpg" alt=""></div>
-									<div class="portfolio-desc">
-										<h3 >Simon Tan </h3>
-										<span>Kuala Lumpur, Malaysia<br/ >$145,000 </span>
-									</div>
-								</div>
-							</article>
-							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics" onClick="window.open('heroing_lions_details.php','_self')">
-								<div class="grid-inner">
-									<div class="portfolio-image"><img src="imgs/index/2.jpg" alt=""></div>
-									<div class="portfolio-desc">
-										<h3 >Simon Tan </h3>
-										<span>Kuala Lumpur, Malaysia<br/ >$145,000 </span>
-									</div>
-								</div>
-							</article>
-							
-							
-							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics" onClick="window.open('heroing_lions_details.php','_self')">
-								<div class="grid-inner">
-									<div class="portfolio-image"><img src="imgs/index/3.jpg" alt=""></div>
-									<div class="portfolio-desc">
-										<h3 >Simon Tan </h3>
-										<span>Kuala Lumpur, Malaysia<br/ >$145,000 </span>
-									</div>
-								</div>
-							</article>
-							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics" onClick="window.open('heroing_lions_details.php','_self')">
-								<div class="grid-inner">
-									<div class="portfolio-image"><img src="imgs/index/4.jpg" alt=""></div>
+									<div class="portfolio-image jhand" onClick="window.open('heroed_lions_details.php','_self')"><img src="imgs/lions/lion1.jpg" alt=""></div>
 									<div class="portfolio-desc">
 										<h3 >Simon Tan </h3>
 										<span>Kuala Lumpur, Malaysia<br/>$145,000 </span>
+										<a href="#" class="btn btn-success col-12">Donate</a>
 									</div>
 								</div>
 							</article>
-							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics" onClick="window.open('heroing_lions_details.php','_self')">
+							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics">
 								<div class="grid-inner">
-									<div class="portfolio-image"><img src="imgs/index/8.jpg" alt=""></div>
+									<div class="portfolio-image jhand" onClick="window.open('heroed_lions_details.php','_self')"><img src="imgs/lions/lion2.jpg" alt=""></div>
 									<div class="portfolio-desc">
 										<h3 >Simon Tan </h3>
-										<span>Kuala Lumpur, Malaysia<br/ >$145,000 </span>
+										<span>Kuala Lumpur, Malaysia<br/>$145,000 </span>
+										<a href="#" class="btn btn-success col-12">Donate</a>
 									</div>
 								</div>
 							</article>
-							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics" onClick="window.open('heroing_lions_details.php','_self')">
+							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics">
 								<div class="grid-inner">
-									<div class="portfolio-image"><img src="imgs/index/2.jpg" alt=""></div>
+									<div class="portfolio-image jhand" onClick="window.open('heroed_lions_details.php','_self')"><img src="imgs/lions/lion1.jpg" alt=""></div>
+									<div class="portfolio-desc">
+										<h3 >Simon Tan </h3>
+										<span>Kuala Lumpur, Malaysia<br/>$145,000 </span>
+										<a href="#" class="btn btn-success col-12">Donate</a>
+									</div>
+								</div>
+							</article>
+							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics">
+								<div class="grid-inner">
+									<div class="portfolio-image jhand" onClick="window.open('heroed_lions_details.php','_self')"><img src="imgs/lions/lion3.jpg" alt=""></div>
+									<div class="portfolio-desc">
+										<h3 >Simon Tan </h3>
+										<span>Kuala Lumpur, Malaysia<br/>$145,000 </span>
+										<a href="#" class="btn btn-success col-12">Donate</a>
+									</div>
+								</div>
+							</article>
+							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics">
+								<div class="grid-inner">
+									<div class="portfolio-image jhand" onClick="window.open('heroed_lions_details.php','_self')"><img src="imgs/lions/lion1.jpg" alt=""></div>
+									<div class="portfolio-desc">
+										<h3 >Simon Tan </h3>
+										<span>Kuala Lumpur, Malaysia<br/>$145,000 </span>
+										<a href="#" class="btn btn-success col-12">Donate</a>
+									</div>
+								</div>
+							</article>
+							
+							
+							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics">
+								<div class="grid-inner">
+									<div class="portfolio-image jhand" onClick="window.open('heroed_lions_details.php','_self')"><img src="imgs/lions/lion3.jpg" alt=""></div>
+									<div class="portfolio-desc">
+										<h3 >Simon Tan </h3>
+										<span>Kuala Lumpur, Malaysia<br/>$145,000 </span>
+										<a href="#" class="btn btn-success col-12">Donate</a>
+									</div>
+								</div>
+							</article>
+							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics">
+								<div class="grid-inner">
+									<div class="portfolio-image jhand" onClick="window.open('heroed_lions_details.php','_self')"><img src="imgs/lions/lion3.jpg" alt=""></div>
+									<div class="portfolio-desc">
+										<h3 >Simon Tan </h3>
+										<span>Kuala Lumpur, Malaysia<br/>$145,000 </span>
+										<a href="#" class="btn btn-success col-12">Donate</a>
+									</div>
+								</div>
+							</article>
+							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics">
+								<div class="grid-inner">
+									<div class="portfolio-image jhand" onClick="window.open('heroed_lions_details.php','_self')"><img src="imgs/lions/lion2.jpg" alt=""></div>
+									<div class="portfolio-desc">
+										<h3 >Simon Tan </h3>
+										<span>Kuala Lumpur, Malaysia<br/>$145,000 </span>
+										<a href="#" class="btn btn-success col-12">Donate</a>
+									</div>
+								</div>
+							</article>
+							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics">
+								<div class="grid-inner">
+									<div class="portfolio-image jhand" onClick="window.open('heroed_lions_details.php','_self')"><img src="imgs/lions/lion1.jpg" alt=""></div>
 									<div class="portfolio-desc">
 										<h3 >Simon Tan x</h3>
 										<span>Kuala Lumpur, Malaysia<br/>$145,000 </span>
+										<a href="#" class="btn btn-success col-12">Donate</a>
 									</div>
 								</div>
 							</article>
-							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics" onClick="window.open('heroing_lions_details.php','_self')">
+							<article class="portfolio-item col-lg-1-5 col-md-4 col-sm-4 pf-graphics">
 								<div class="grid-inner">
-									<div class="portfolio-image"><img src="imgs/index/8.jpg" alt=""></div>
+									<div class="portfolio-image jhand" onClick="window.open('heroed_lions_details.php','_self')"><img src="imgs/lions/lion2.jpg" alt=""></div>
 									<div class="portfolio-desc">
 										<h3 >Simon Tan </h3>
-										<span>Kuala Lumpur, Malaysia<br/> $145,000 </span>
+										<span>Kuala Lumpur, Malaysia<br/>$145,000 </span>
+										<a href="#" class="btn btn-success col-12">Donate</a>
 									</div>
 								</div>
 							</article>
